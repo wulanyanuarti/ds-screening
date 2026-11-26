@@ -1,0 +1,4 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-bg font-inter text-ink; }
+@page { size: A4; margin: 12mm; }
+@media print { .no-print { display: none !important; } body { background: #fff; } .print-card { border: 0 !important; padding: 0 !important; width: 100% !important; } }
